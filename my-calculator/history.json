@@ -1,0 +1,28 @@
+{
+    "calculations": [
+        {
+            "choice": null,
+            "num1": "5+5",
+            "num2": null,
+            "result": 10.0
+        },
+        {
+            "choice": "1",
+            "num1": 5.0,
+            "num2": 5.0,
+            "result": 10.0
+        },
+        {
+            "choice": null,
+            "num1": "4 + 5 / 0",
+            "num2": null,
+            "result": "Error: Division by zero."
+        },
+        {
+            "choice": null,
+            "num1": "5 + 5",
+            "num2": null,
+            "result": 10.0
+        }
+    ]
+}
