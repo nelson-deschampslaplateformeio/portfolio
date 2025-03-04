@@ -1,0 +1,79 @@
+[
+    {
+        "nom": "Mew",
+        "type": [
+            "Psychic"
+        ],
+        "pv": 100,
+        "attaque": 100,
+        "defense": 100,
+        "attaques": [
+            "Pound",
+            "Mega-punch",
+            "Pay-day",
+            "Fire-punch"
+        ],
+        "sprites": {
+            "face": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+            "dos": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/151.png"
+        }
+    },
+    {
+        "nom": "Mewtwo",
+        "type": [
+            "Psychic"
+        ],
+        "pv": 106,
+        "attaque": 110,
+        "defense": 90,
+        "attaques": [
+            "Mega-punch",
+            "Pay-day",
+            "Fire-punch",
+            "Ice-punch"
+        ],
+        "sprites": {
+            "face": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+            "dos": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
+        }
+    },
+    {
+        "nom": "Blastoise",
+        "type": [
+            "Water"
+        ],
+        "pv": 79,
+        "attaque": 83,
+        "defense": 100,
+        "attaques": [
+            "Mega-punch",
+            "Ice-punch",
+            "Mega-kick",
+            "Headbutt"
+        ],
+        "sprites": {
+            "face": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+            "dos": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/9.png"
+        }
+    },
+    {
+        "nom": "Charizard",
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "pv": 78,
+        "attaque": 84,
+        "defense": 78,
+        "attaques": [
+            "Mega-punch",
+            "Fire-punch",
+            "Thunder-punch",
+            "Scratch"
+        ],
+        "sprites": {
+            "face": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+            "dos": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png"
+        }
+    }
+]

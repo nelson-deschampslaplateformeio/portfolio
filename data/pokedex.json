@@ -1,0 +1,14 @@
+[
+    {
+        "nom": "Bulbasaur",
+        "statut": "JOUABLE"
+    },
+    {
+        "nom": "Mew",
+        "statut": "JOUABLE"
+    },
+    {
+        "nom": "Mewtwo",
+        "statut": "INVALABLE"
+    }
+]
