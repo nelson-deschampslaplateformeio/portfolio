@@ -1,0 +1,24 @@
+{
+    "equipe_joueur": [
+        {
+            "nom": "Charizard",
+            "type": [
+                "Fire",
+                "Flying"
+            ],
+            "pv": -5,
+            "attaque": 84,
+            "defense": 78,
+            "attaques": [
+                "Mega-punch",
+                "Fire-punch",
+                "Thunder-punch",
+                "Scratch"
+            ],
+            "sprites": {
+                "face": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+                "dos": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png"
+            }
+        }
+    ]
+}

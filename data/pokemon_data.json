@@ -1,0 +1,60 @@
+[
+    {
+        "nom": "Bulbasaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "pv": 45,
+        "attaque": 49,
+        "defense": 49,
+        "attaques": [
+            "Razor-wind",
+            "Swords-dance",
+            "Cut",
+            "Bind"
+        ],
+        "sprites": {
+            "face": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            "dos": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+        }
+    },
+    {
+        "nom": "Mew",
+        "type": [
+            "Psychic"
+        ],
+        "pv": 100,
+        "attaque": 100,
+        "defense": 100,
+        "attaques": [
+            "Pound",
+            "Mega-punch",
+            "Pay-day",
+            "Fire-punch"
+        ],
+        "sprites": {
+            "face": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+            "dos": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/151.png"
+        }
+    },
+    {
+        "nom": "Mewtwo",
+        "type": [
+            "Psychic"
+        ],
+        "pv": 106,
+        "attaque": 110,
+        "defense": 90,
+        "attaques": [
+            "Mega-punch",
+            "Pay-day",
+            "Fire-punch",
+            "Ice-punch"
+        ],
+        "sprites": {
+            "face": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+            "dos": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
+        }
+    }
+]
