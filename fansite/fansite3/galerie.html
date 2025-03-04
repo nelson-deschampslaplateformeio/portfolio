@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fansite3.css">
+    <title>Galerie - Alexandre Astier</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img
+            id=logo
+            src="./Images/logo.png"
+            alt="logo"/>
+        </a>
+        <article>
+            <a href="fansite3.html" id="titre"><h1>Alexandre Astier</h1></a>
+        </article>
+         <!-- Menu burger -->
+        <div class="menu-burger">
+            <!-- Utilisation d'une checkbox -->
+            <input type="checkbox" id="hamburger">
+            <!-- Label de la checkbox -->
+            <label id="hamburger-logo" for="hamburger">☰</label>
+            <!-- Menu -->
+            <nav id="nav-header">
+                <ul id="lien-nav">
+                    <li>
+                        <a href="./fansite3.html">Acceuil</a>
+                    </li>
+                    <li>
+                        <a href="./actualite.html">Actualité</a>
+                    </li>
+                    <li>
+                        <a href="./realisations.html">Réalisation</a>
+                    </li>
+                    <li>
+                        <a href="./evenements.html">Évènements</a>
+                    </li>
+                    <li>
+                        <a href class="actuel">Galerie</a>
+                    </li>
+                    <li>
+                        <a href="./liens.html">Plus</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="présentation">
+        <article>
+            <div class="slider-container">
+                <div class="menu">
+                    <label for="slide-dot-1"></label>
+                    <label for="slide-dot-2"></label>
+                    <label for="slide-dot-3"></label>
+                    <label for="slide-dot-4"></label>
+                </div>
+                <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+                <img class="slide-img" src="./Images/AA1.jpg">
+                <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+                <img class="slide-img" src="./Images/AA2.jpg">
+                <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
+                <img class="slide-img" src="./Images/AA3.jpg">
+                <input class="slide-input" id="slide-dot-4" type="radio" name="slides">
+                <img class="slide-img" src="./Images/AA4.jpg">
+            </div>
+            <iframe src="https://www.youtube.com/embed/pu61Lm3f-rY?si=S-DGbJeBpNnpOEd8"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </article>  
+    </main>
+    <footer>
+        <!-- liste pages -->
+        <nav>
+            <ul id="lien-nav">
+                <li>
+                    <a href="./fansite3.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="./actualite.html">Actualité</a>
+                </li>
+                <li>
+                    <a href="./realisations.html">Réalisation</a>
+                </li>
+                <li>
+                    <a href="./evenements.html">Évènements</a>
+                </li>
+                <li>
+                    <a href class="actuel">Galerie</a>
+                </li>
+                <li>
+                    <a href="./liens.html">Plus</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- sitemap ? -->
+
+        <!-- copyright -->
+        <span>Copyright © 2024 || All Right Reserved</span>
+    </footer> 
+</body>
+</html>

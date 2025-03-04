@@ -1,0 +1,216 @@
+body{
+    background-color:black;
+   margin: 0;
+}
+
+h2 {
+    color: white;
+}
+
+
+
+@media screen and (max-width: 880px){
+.background-image {
+    
+    background-image: url("imagesite1/wesghost-background.jpg");
+  
+    
+  
+ 
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+
+
+ul li a {
+      
+    display: flex;
+
+   
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: 0.3s;
+    flex-flow: row;
+}
+h2{
+    padding-left: 100px;
+}
+* {
+    /* Pour que les tailles soient correctes */
+    box-sizing: border-box;
+  }
+  
+  body {
+    /* Pour coller le menu au bord, sans espace */
+    margin: 0;
+  }
+  
+  .menu {
+    /* Pour que le menu reste en place quand on scroll */
+    position: fixed;
+    /* Pour que le menu ne soit pas sur le texte et que ce dernier puisse être sélectionné */
+    width: 0px;
+  }
+  
+  main {
+    /* Pour que le texte ne soit pas sous le menu */
+    margin-left: 50px;
+    width: 500px;
+    text-align: justify;
+  }
+  
+ 
+  
+  #hamburger-logo {
+    /* Pour que le curseur soit un pointeur */
+    cursor: pointer;
+    background: black;
+    width: 200px;
+    display: block;
+    color: white;
+    /* Pour que le menu hamburger s'affiche toujours */
+    text-align: right;
+    /* Pour que le menu hamburger soit "rangé" par défaut */
+    transform: translateX(-168px);
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    overflow: hidden;
+    width: 200px;
+    /* Pour que les liens soient "rangés" par défaut */
+    transform: translateX(-300px);
+  }
+  
+  #hamburger-logo,
+  nav {
+    /* Pour qu'il y ait une animation */
+    transition: 0.7s;
+  }
+  
+  /* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
+  #hamburger:checked ~ #hamburger-logo,
+  #hamburger:checked ~ nav {
+    /* Changement de la position pour afficher les menus */
+    transform: translate(0);
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background: #444;
+  }
+  .gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 10px;
+  }
+  .gallery .item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+}
+@media screen and (min-width: 881px){
+    .background-image {
+        
+        background-image: url("imagesite1/wesghost-background.jpg");
+      
+        max-height: 100%;
+        height: 100%;
+        width: 100%; 
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+      }
+      .boite{
+        display: flex;
+        opacity: 80%;
+            background-color:brown;
+              border: 1px solid white;
+              justify-content : space-around
+    }
+      ul li a{
+      
+        display: flex;
+     
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        transition: 0.3s;
+        flex-flow: row;
+    }
+
+    .navbar a {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        display: block;
+        transition: 0.3s;
+        
+    }
+    
+
+    #hamburger {
+        /* Pour que la checkbox ne s'affiche pas */
+        display: none;
+    }
+    }
+    h1{
+        display: flex;
+        transform: translateX(200%);
+        justify-content: center;
+        color: white;
+        background-color: #444;
+        height: auto;
+        width: 130px;
+        
+    }
+    p{
+
+      color: white;
+      background-color: brown;
+      height: auto;
+      width: 130px;
+
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    img {
+      max-width: 100%;
+      max-height:15%;
+      float: left;
+    }
+    
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      padding-top: 20%;
+      float: left;
+    }
+    
